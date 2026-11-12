@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+}
+
+.hero,
+.how-to-play {
+    width: 100%;
+}
+
+.hero-content{
+    display: flex;
+    padding: 50px;
+
+    
+}
+
+.phone-input{
+    display: flex;
+    gap: 10px;
+}
+
+.hero-image img{
+    width: 700px;
+    height: 500px;
+    /* object-fit: contain; */
+    /* padding: 50px; */
+}
+.hero {
+    background-color: white;
+    min-height: 460px;
+    padding: 20px; 
+}
+
+.hero-text{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+}
+
+.hero nav {
+    display:flex;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    /* color: black;
+    font-size: 18px; */
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.navigation-bar nav {
+    display: flex;
+    gap: 35px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 35px;
+
+}
+
+.hero-content h1{
+    font-size: 50px
+}
